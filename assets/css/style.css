@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color:bisque;
+    background-color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline-block;
+    text-decoration: line;
+    font-family: Arial;
+}
+a {
+    color:yellowgreen;
+}
