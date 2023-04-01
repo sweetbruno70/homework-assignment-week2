@@ -2,24 +2,97 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    
 }
 
 .header {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    color:bisque;
-    background-color: darkgreen;
-    font-family: 'Times New Roman', Times, serif;
-    justify-content: space-between;
+    padding: 10px;
+    color:yellowgreen;
+    background-color: darkslategray;
+    justify-content:space-between;
     align-items: center;
+}
+.header img {
+    max-width: 60px;
+    max-height: 40px;
 }
 
 .header ul li {
     display: inline-block;
-    text-decoration: line;
-    font-family: Arial;
+    text-decoration: line;  
 }
+
 a {
     color:yellowgreen;
+}
+
+.subtitle {
+    padding:30px;
+    max-width:100%;
+    max-height:100px;
+    color:bisque;
+    background-color:darkgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+} 
+.subtitle img{
+   max-height:100px;
+   max-width:100px;
+   justify-content: left;        
+}
+
+.container {
+    width:200px;
+    height:200px;
+    margin-left:55px;
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color:bisque;
+    font-size: x-large;
+    text-align: center;
+    float:left;
+
+}
+
+.work {
+    width:200px;
+    height:400px;
+    margin-left:55px;
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkslategray;
+    color:bisque;
+    font-size: x-large;
+    text-align: center;
+    float:left;
+
+}
+      
+
+
+.main, .contactme {
+    margin-left:310px;
+    margin-top: 20px;
+    width:900px;
+    height:200px;
+    color:darkgreen;
+    background-color:none;
+    inline-size:900px;
+    
+    
+}
+
+.workmain {
+    margin-left:310px;
+    margin-top: 20px;
+    width:900px;
+    height:400px;
+    background-color:orange;
+    color:black;
+    inline-size:900px;
+    
 }
