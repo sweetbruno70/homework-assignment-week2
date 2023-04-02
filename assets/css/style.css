@@ -93,7 +93,7 @@ a {
 
 .workmain-container{
     display:flex;
-    flex-direction: var();
+    flex-direction: row;
     margin-top:0px;
     margin-left:310px;
     width:71%;
@@ -133,7 +133,7 @@ a {
     text-align: center;
 }
 @media screen and (max-width:996px) {
-header, body, {
+header, body {
     flex-direction: column;
     }   
     main {max-width:1200 px;
