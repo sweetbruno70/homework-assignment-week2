@@ -8,3 +8,4 @@ The website depicted in this project intends to showcase my Nursing background a
 
 ![My Portfolio] https://github.com/sweetbruno70/homework-assignment-week2/blob/main/assets/Portfolio.png
 
+Website URL: https://sweetbruno70.github.io/homework-assignment-week2/
