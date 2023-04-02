@@ -7,15 +7,12 @@
 .header {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     padding: 10px;
     color:yellowgreen;
     background-color: darkslategray;
     justify-content:space-between;
     align-items: center;
-}
-.header img {
-    max-width: 60px;
-    max-height: 40px;
 }
 
 .header ul li {
@@ -28,24 +25,18 @@ a {
 }
 
 .subtitle {
-    padding:30px;
-    max-width:100%;
-    max-height:100px;
+    padding:20px;
+    width:100%;
     color:bisque;
     background-color:darkgreen;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    
-} 
-.subtitle img{
-   max-height:100px;
-   max-width:100px;
-   justify-content: left;        
-}
+    text-align: center;       
+}   
+
 
 .cardboard, .plywood {
-    width:200px;
-    height:50px;
+    width:16%;
+    height:9%;
     margin-left:55px;
     margin-top:10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,8 +48,8 @@ a {
 }
 
 .work {
-    width:200px;
-    height:500px;
+    width:16%;;
+    height:84%;
     margin-left:55px;
     margin-top:10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,60 +63,62 @@ a {
 .main {
     margin-left:310px;
     margin-top: 10px;
-    width:900px;
-    height:50px;
+    width:71%;
+    height:9%;
     color:darkgreen;
     background-color:none;
-    inline-size:900px;      
 }
+
 .kepoy {
     margin-left:310px;
     margin-top: 10px;
-    width:900px;
-    height:50px;
+    width:71%;
+    height:9%;
     color:bisque;
     background-color:darkgreen;
     font-size: x-large;
-    text-align: center;
+    text-align: center
 }
 
 .horiseon{
-    margin-top:10;
+    margin-top:10px;
     margin-left:310px;
-    min-height: 230px; 
-    width:900px;
+    width:71%;
+    height:36%;
     text-align:center;
     color:bisque;
-    background-color:darkgreen;    
+    background-color: darkgreen;
+       
 }
 
 .workmain-container{
     display:flex;
-    flex-direction:row;
+    flex-direction: var();
     margin-top:0px;
     margin-left:310px;
-    max-width:900px;
+    width:71%;
+    height:48%;
     background-color:darkgreen;    
 }
 
 .workmain-item{
-    width:450px;
-    height:230px;
+    width:50%x;
+    height:100%x;
     background-color:darkgreen;
     color:bisque;
 }
 
 .workmain-item1{
-    height:230px;
-    width:450px;
+    width:50%;
+    height:100%;
     text-align:center;
     color:bisque;
     background-color:darkgreen;               
 }
 
 .workmain-item2 {
-   min-height:230px;
-   width:450px;
+    width:50%;
+    height:100%;
    text-align:center;
    color:bisque;
    background-color:darkgreen;
@@ -133,8 +126,22 @@ a {
 .footer { 
     
     margin-top:10px;
-    padding: 8px;
+    padding: 5px;
+    width: 100%;
     color:bisque;
     background-color: darkslategray;
     text-align: center;
+}
+@media screen and (max-width:996px) {
+header, body, {
+    flex-direction: column;
+    }   
+    main {max-width:1200 px;
+    }
+}
+@media screen and (max-width:768px) {
+    header, body {
+        flex-direction: column;
+       
+    }
 }
