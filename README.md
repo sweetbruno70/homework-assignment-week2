@@ -6,6 +6,6 @@ Collaborators: The creation of this webpage would not have been possible without
 
 The website depicted in this project intends to showcase my Nursing background and my novice website design skills.
 
-![My Portfolio] https://github.com/sweetbruno70/homework-assignment-week2/blob/main/assets/Portfolio.png
+![Portfolio] https://github.com/sweetbruno70/homework-assignment-week2/blob/main/assets/Portfolio.png
 
 Website URL: https://sweetbruno70.github.io/homework-assignment-week2/
