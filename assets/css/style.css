@@ -35,7 +35,7 @@ a {
 
 
 .cardboard, .plywood {
-    width:16%;
+    width:15rem;
     height:9%;
     margin-left:55px;
     margin-top:10px;
@@ -48,7 +48,7 @@ a {
 }
 
 .work {
-    width:16%;;
+    width:15rem;
     height:84%;
     margin-left:55px;
     margin-top:10px;
@@ -84,7 +84,7 @@ a {
     margin-top:10px;
     margin-left:310px;
     width:71%;
-    height:36%;
+    height:42%;
     text-align:center;
     color:bisque;
     background-color: darkgreen;
@@ -97,7 +97,7 @@ a {
     margin-top:0px;
     margin-left:310px;
     width:71%;
-    height:48%;
+    height:42%;
     background-color:darkgreen;    
 }
 
